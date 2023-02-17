@@ -26,8 +26,8 @@ jobs:
     - name: Package Application
       uses: JackMcKew/pyinstaller-action-windows@main
       with:
-        path: myflet/main.py
+        path: myflet
     - uses: actions/upload-artifact@v2
       with:
         name: name-of-artifact
-        path: src/dist/main
+        path: myflet/dist/main
