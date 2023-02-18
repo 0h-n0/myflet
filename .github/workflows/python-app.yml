@@ -25,5 +25,5 @@ jobs:
         path: myflet/main.py
     - uses: actions/upload-artifact@v2
       with:
-        name: name-of-artifact
+        name: myflet
         path: dist/main.exe
