@@ -22,7 +22,7 @@ jobs:
     - name: Package Application
       uses: 0h-n0/flet-action-windows@0.1.0
       with:
-        path: myflet/main.py
+        path: myflet/myflet/main.py
     - uses: actions/upload-artifact@v2
       with:
         name: name-of-artifact
