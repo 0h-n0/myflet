@@ -2,7 +2,7 @@
 name = "myflet"
 version = "0.1.0"
 description = ""
-authors = ["koji-ono_exwzd <koji.ono@exwzd.com>"]
+authors = ["0h-n0 <kbu94982@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
