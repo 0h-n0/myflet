@@ -26,5 +26,5 @@ def main(page: ft.Page):
         )
     )
 
-
+print("hello world")
 ft.app(main)

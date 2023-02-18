@@ -6,10 +6,9 @@ authors = ["koji-ono_exwzd <koji.ono@exwzd.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11,<3.12"
+python = "^3.10,<3.12"
 flet = "^0.4.0"
 pyinstaller = "^5.8.0"
-
 
 [build-system]
 requires = ["poetry-core"]
