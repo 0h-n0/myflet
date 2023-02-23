@@ -20,9 +20,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Package Application
-      uses: 0h-n0/streamlit-action-windows@master
-      with:
-        path: myflet/main.py
+    - run: pip install pyinstaller
+    - run: pip install -r requirements.txt
+      
     # - uses: actions/upload-artifact@v2
     #   with:
     #     name: myflet
