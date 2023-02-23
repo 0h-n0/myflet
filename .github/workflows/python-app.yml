@@ -19,7 +19,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Package Application
     - run: pip install pyinstaller
     - run: pip install -r requirements.txt
       
